@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=shamrock
-VENDOR=google
+DEVICE=CP3600I
+VENDOR=YuLong
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
