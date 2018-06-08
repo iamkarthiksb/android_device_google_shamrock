@@ -19,7 +19,7 @@ DEVICE_PATH := device/YuLong/CP3600I
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Architecture
-TARGET_ARCH := arm
+TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
