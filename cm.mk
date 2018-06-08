@@ -21,16 +21,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from shamrock device
-$(call inherit-product, device/google/shamrock/device.mk)
+$(call inherit-product, device/YuLong/CP3600I/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := google
-PRODUCT_BRAND := google
-PRODUCT_DEVICE := shamrock
-PRODUCT_NAME := cm_shamrock
-PRODUCT_MANUFACTURER := General Mobile
-PRODUCT_MODEL := GM 5 Plus
-TARGET_VENDOR := google
+BOARD_VENDOR := YuLong
+PRODUCT_BRAND := coolpad
+PRODUCT_DEVICE := CP3600I
+PRODUCT_NAME := cm_CP3600I
+PRODUCT_MANUFACTURER := YuLong
+PRODUCT_MODEL := Coolpad 3600I
+TARGET_VENDOR := YuLong
 
 PRODUCT_GMS_CLIENTID_BASE := android-google
 
